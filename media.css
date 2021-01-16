@@ -1,0 +1,131 @@
+@media all and (max-width: 1700.98px){
+	h1{
+		font-size: 31px;
+	}
+}
+@media all and (max-width: 1499.98px){
+	h1{
+		font-size: 26px;
+	}
+	.company-name{
+		font-size: 25px;
+	}
+	.menu-item a{
+		font-size: 19px;
+	}
+	.similar-link{
+		width: 30%;
+	}
+}
+@media all and (max-width: 1199.98px){
+	.item{
+		width: 48%;
+	}
+	.menu-item a{
+		font-size: 17px;
+	}
+	.search{
+		padding-top: 200px;
+    	padding-bottom: 225px;
+	}
+}
+@media all and (max-width: 991.98px){
+	h1{
+		font-size: 21px;
+	}
+	.search{
+		padding-top: 100px;
+    	padding-bottom: 125px;
+	}
+	.similar-link{
+		width: 45%;
+	}
+}	
+@media all and (max-width: 767.98px){
+	.item{
+		width: 100%;
+	}
+	.search{
+		padding-top: 120px;
+    	padding-bottom: 105px;
+	}
+	.company-name{
+		justify-content: center;
+	}
+	.company{
+	    display: flex;
+	    justify-content: center;
+	}
+	.menu{
+		position: absolute;
+	    left: 0px;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: flex-start;
+	    padding-top: 60px;		
+	}
+	.menu-col{
+		position: fixed;
+		max-width: 200px;
+	    height: 100%;
+	    left: -230px;
+	    background-color: #23282d;
+	    z-index: 101;
+	    transition:left .3s;
+	    transition-timing-function: ease-in-out;
+	}
+	.menu-item:after{
+		height: 0px;
+  		bottom: 0px;
+	}
+	.menu-item{
+		padding-bottom: 15px;
+	}
+	.menu-item a{
+		font-size: 19px;
+	}
+	.bars-block{
+		display: flex;
+	}
+	.show-menu{
+		left: 0px;
+		transition:left .3s;
+		transition-timing-function: ease-in-out;
+	}
+	.menu-item{
+	    padding-left: 15px;
+	}
+	.similar-item{
+		height: 200px;
+	}
+	h2{
+		margin-top: .5rem;
+	}
+	.soc{
+	    display: flex;
+	    justify-content: center;
+	}
+	.footer-menu{
+		justify-content: center;
+	}
+	.footer-company{
+		order: 1;
+		display: flex;
+		justify-content: center;
+	}
+}
+@media all and (max-width: 575.98px){
+	.search{
+		padding-top: 100px;
+    	padding-bottom: 95px;
+	}
+	h1{
+		font-size: 18px;
+	}
+	.similar-item{
+		height: 250px;
+	}
+	.similar-link{
+		width: 95%;
+	}
+}	
